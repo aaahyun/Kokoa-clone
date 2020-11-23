@@ -1,0 +1,107 @@
+.adding-icons-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+.adding-icons-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.adding-icons-column span {
+  padding-top: 18px;
+  text-align: center;
+}
+.adding-icons-column:nth-child(2) span {
+  padding-top: 12px;
+}
+.recommended-friends {
+  border-top: solid 1px rgb(230, 230, 230);
+  border-bottom: solid 1px rgb(230, 230, 230);
+  margin: 8px 24px;
+}
+.recommended-friends-title {
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+  padding-top: 24px;
+}
+.recommended-friends-text {
+  text-align: center;
+  color: rgb(200, 200, 200);
+  padding: 72px 0;
+}
+.open-chat-title-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 24px;
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+.open-chat-title {
+  color: rgb(150, 150, 150);
+}
+.open-chat-hashtag {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.pink-text {
+  color: rgb(255, 0, 242);
+  font-size: 14px;
+  padding-left: 4px;
+}
+.open-chat-members {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  border-right: solid 1px rgb(200, 200, 200);
+  padding-right: 8px;
+}
+.member-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: rosybrown;
+}
+.open-chat-details {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  font-weight: 300;
+}
+.open-chat-name {
+  padding-bottom: 8px;
+}
+.open-chat-thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+.open-chat-like {
+  width: 48px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 4px;
+  right: 2px;
+}
+.fa-heart {
+  padding-right: 4px;
+}
+.open-chat-block_column {
+  position: relative;
+}
+.open-chat-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}

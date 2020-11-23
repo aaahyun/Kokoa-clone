@@ -1,0 +1,53 @@
+.welcome-header {
+  margin: 80px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+.welcome-header-text {
+  width: 60%;
+  color: rgb(130, 130, 130);
+}
+
+#login {
+  margin: 0 28px;
+}
+#login input {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  border: none;
+  margin-bottom: 12px;
+}
+#login input::placeholder {
+  color: rgb(180, 180, 180);
+  font-size: 16px;
+}
+#login input:not([type="submit"]):focus {
+  border-color: var(--kakao-yellow);
+  border-width: 2px;
+}
+#login input:not([type="submit"]) {
+  border-bottom: solid 1px rgb(200, 200, 200);
+  transition: border-color 0.5s ease-out;
+}
+#login input[type="submit"] {
+  padding-bottom: 16px;
+  background-color: var(--kakao-yellow);
+  cursor: pointer;
+  border-radius: 4px;
+}
+#login input[value="Sign Up"] {
+  background-color: #c8c8c8;
+}
+#login a {
+  text-align: center;
+  text-decoration: none;
+  color: #c8c8c8;
+  font-size: 14px;
+}

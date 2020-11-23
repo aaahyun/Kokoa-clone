@@ -1,0 +1,30 @@
+.friends-display {
+  text-align: center;
+  display: block;
+  background-color: rgb(245, 245, 245);
+  padding: 12px 0;
+  width: 90%;
+  margin: 0 24px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.fa-info-circle {
+  color: rgb(200, 200, 200);
+}
+.fa-chevron-right {
+  color: rgb(200, 200, 200);
+}
+.friends-screen {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+}
+.channel-bar {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(200, 200, 200);
+  margin: 12 24 12 24px;
+  padding-top: 8px;
+  border-top: solid 1px rgb(230, 230, 230);
+  font-size: 14px;
+}
