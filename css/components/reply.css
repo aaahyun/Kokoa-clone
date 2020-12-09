@@ -1,0 +1,59 @@
+.reply {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 4px 24px 4px 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reply-column:first-child {
+  width: 8%;
+}
+.reply-column:last-child {
+  width: 92%;
+}
+.reply-column input {
+  width: 100%;
+  padding: 10px 2px 10px 12px;
+  border: solid 1px #aeaeae;
+  border-radius: 18px;
+}
+.reply-column:last-child > i,
+button {
+  position: absolute;
+  right: 12px;
+  bottom: 9px;
+}
+.reply-column:last-child > i {
+  right: 46px;
+  bottom: 14px;
+}
+.reply-column:last-child button {
+  width: 28px;
+  height: 28px;
+  border: solid 1px rgb(240, 200, 0);
+  border-radius: 14px;
+  background-color: var(--kakao-yellow);
+}
+
+.reply:focus-within input {
+  border-color: var(--kakao-yellow);
+  width: 92vw;
+  transform: translateX(-44px) translateY(-56px);
+  transition: all 0.3s ease-in-out;
+}
+.reply:focus-within i,
+.reply:focus-within button {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.reply:focus-within {
+  transform: translateY(56px);
+  transition: all 0.3s ease-in-out;
+}

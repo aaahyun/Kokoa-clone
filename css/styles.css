@@ -6,13 +6,20 @@
 @import url("components/status-bar.css");
 @import url("components/nav-bar.css");
 @import url("components/header.css");
+@import url("components/header-alt.css");
 @import url("components/user-component.css");
+@import url("components/icons-box.css");
+@import url("components/setting.css");
+@import url("components/reply.css");
+@import url("components/too-big-screen.css");
 
 /* pages */
 @import url("pages/login.css");
 @import url("pages/friends.css");
+@import url("pages/chats.css");
 @import url("pages/chat.css");
 @import url("pages/find.css");
+@import url("pages/more.css");
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

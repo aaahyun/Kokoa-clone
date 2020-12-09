@@ -45,8 +45,7 @@
   color: rgb(150, 150, 150);
   font-size: 14px;
   font-weight: 300;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  max-width: 320px;
 }
 .pink-text {
   color: rgb(255, 0, 242);
@@ -91,11 +90,23 @@
   font-size: 12px;
   font-weight: 300;
   position: absolute;
-  bottom: 4px;
+  top: 58px;
   right: 2px;
 }
-.fa-heart {
+.find-screen .fa-heart {
   padding-right: 4px;
+}
+.find-screen .open-chat-like:hover .fa-heart {
+  animation: heart-beating 0.5s ease-in-out infinite;
+}
+@keyframes heart-beating {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: rgb(255, 0, 221);
+  }
 }
 .open-chat-block_column {
   position: relative;
@@ -103,5 +114,5 @@
 .open-chat-block {
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 0 24px 12px 24px;
 }

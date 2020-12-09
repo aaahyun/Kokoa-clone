@@ -1,0 +1,34 @@
+.header-screen-alt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 28px;
+  background-color: #ffffff;
+}
+.header-alt__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.header-icon {
+  margin-left: 16px;
+}
+.no-background {
+  background-color: rgb(171, 193, 209);
+}
+.header-chat__icons .header-alt__icon:last-child {
+  padding-left: 8px;
+}
+.header-alt__column {
+  width: 33.3%;
+}
+.header-alt__column:nth-child(2) {
+  text-align: center;
+}
+.header-alt__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

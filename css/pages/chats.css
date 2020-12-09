@@ -1,0 +1,35 @@
+.main {
+  position: absolute;
+  top: 92px;
+  width: 100%;
+}
+.chats-screen {
+  height: 100vh;
+}
+
+#splash {
+  background-color: var(--kakao-yellow);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: splash-animation 0.4s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+#splash i {
+  padding-bottom: 40px;
+}
+
+@keyframes splash-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
